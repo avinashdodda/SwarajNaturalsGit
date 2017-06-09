@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1260516D8510BD68F2F9B646 /* Pods_SwarajNaturals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948FC47533869B4737329480 /* Pods_SwarajNaturals.framework */; };
+		2AFE55C3C6D04F39E7BAB9DB /* Pods_SwarajNaturalsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067D7C8EC33F13192147E766 /* Pods_SwarajNaturalsUITests.framework */; };
+		5630ADEC1EE74BEB002C8457 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5630ADEB1EE74BEB002C8457 /* GoogleService-Info.plist */; };
+		565221121EE9EE9800CF02AD /* FreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565221111EE9EE9800CF02AD /* FreshViewController.swift */; };
+		568E93021ED34988002995C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E93011ED34988002995C8 /* AppDelegate.swift */; };
+		568E93041ED34988002995C8 /* UserAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E93031ED34988002995C8 /* UserAuthViewController.swift */; };
+		568E93071ED34988002995C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568E93051ED34988002995C8 /* Main.storyboard */; };
+		568E93091ED34988002995C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568E93081ED34988002995C8 /* Assets.xcassets */; };
+		568E930C1ED34988002995C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568E930A1ED34988002995C8 /* LaunchScreen.storyboard */; };
+		568E93171ED34989002995C8 /* SwarajNaturalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E93161ED34989002995C8 /* SwarajNaturalsTests.swift */; };
+		568E93221ED34989002995C8 /* SwarajNaturalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E93211ED34989002995C8 /* SwarajNaturalsUITests.swift */; };
+		56D6C2F91EE9D9D70076CC83 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D6C2F81EE9D9D70076CC83 /* HomeViewController.swift */; };
+		BE9252A1216CB49D90A55D17 /* Pods_SwarajNaturalsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB94E36D9303AA6C5D516ABA /* Pods_SwarajNaturalsTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		568E93131ED34989002995C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 568E92F61ED34988002995C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 568E92FD1ED34988002995C8;
+			remoteInfo = SwarajNaturals;
+		};
+		568E931E1ED34989002995C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 568E92F61ED34988002995C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 568E92FD1ED34988002995C8;
+			remoteInfo = SwarajNaturals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		067D7C8EC33F13192147E766 /* Pods_SwarajNaturalsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwarajNaturalsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47396BCCFC5FAA68C8DF7BDD /* Pods-SwarajNaturalsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarajNaturalsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwarajNaturalsTests/Pods-SwarajNaturalsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C9EA2747DFBF8FD93B9FE26 /* Pods-SwarajNaturals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarajNaturals.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwarajNaturals/Pods-SwarajNaturals.release.xcconfig"; sourceTree = "<group>"; };
+		5630ADE81EE73E3F002C8457 /* SwarajNaturals.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwarajNaturals.entitlements; sourceTree = "<group>"; };
+		5630ADEB1EE74BEB002C8457 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		565221111EE9EE9800CF02AD /* FreshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreshViewController.swift; sourceTree = "<group>"; };
+		568E92FE1ED34988002995C8 /* SwarajNaturals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarajNaturals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		568E93011ED34988002995C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		568E93031ED34988002995C8 /* UserAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthViewController.swift; sourceTree = "<group>"; };
+		568E93061ED34988002995C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		568E93081ED34988002995C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		568E930B1ED34988002995C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		568E930D1ED34988002995C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568E93121ED34989002995C8 /* SwarajNaturalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwarajNaturalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		568E93161ED34989002995C8 /* SwarajNaturalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwarajNaturalsTests.swift; sourceTree = "<group>"; };
+		568E93181ED34989002995C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568E931D1ED34989002995C8 /* SwarajNaturalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwarajNaturalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		568E93211ED34989002995C8 /* SwarajNaturalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwarajNaturalsUITests.swift; sourceTree = "<group>"; };
+		568E93231ED34989002995C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56D6C2F81EE9D9D70076CC83 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6A169BB9B0417A692DD209A5 /* Pods-SwarajNaturalsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarajNaturalsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwarajNaturalsTests/Pods-SwarajNaturalsTests.release.xcconfig"; sourceTree = "<group>"; };
+		948FC47533869B4737329480 /* Pods_SwarajNaturals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwarajNaturals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F9D1C85901C8B882A58FBC /* Pods-SwarajNaturals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarajNaturals.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwarajNaturals/Pods-SwarajNaturals.debug.xcconfig"; sourceTree = "<group>"; };
+		D38CF33E6A92E858E0B31E2E /* Pods-SwarajNaturalsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarajNaturalsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwarajNaturalsUITests/Pods-SwarajNaturalsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB94E36D9303AA6C5D516ABA /* Pods_SwarajNaturalsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwarajNaturalsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F61259D4888EA76B780A12 /* Pods-SwarajNaturalsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarajNaturalsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwarajNaturalsUITests/Pods-SwarajNaturalsUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		568E92FB1ED34988002995C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1260516D8510BD68F2F9B646 /* Pods_SwarajNaturals.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568E930F1ED34989002995C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9252A1216CB49D90A55D17 /* Pods_SwarajNaturalsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568E931A1ED34989002995C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFE55C3C6D04F39E7BAB9DB /* Pods_SwarajNaturalsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5630ADE51EE73E38002C8457 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				948FC47533869B4737329480 /* Pods_SwarajNaturals.framework */,
+				EB94E36D9303AA6C5D516ABA /* Pods_SwarajNaturalsTests.framework */,
+				067D7C8EC33F13192147E766 /* Pods_SwarajNaturalsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		565221101EE9EE4000CF02AD /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				565221111EE9EE9800CF02AD /* FreshViewController.swift */,
+			);
+			name = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		568E92F51ED34988002995C8 = {
+			isa = PBXGroup;
+			children = (
+				568E93001ED34988002995C8 /* SwarajNaturals */,
+				568E93151ED34989002995C8 /* SwarajNaturalsTests */,
+				568E93201ED34989002995C8 /* SwarajNaturalsUITests */,
+				568E92FF1ED34988002995C8 /* Products */,
+				5630ADE51EE73E38002C8457 /* Frameworks */,
+				5E7431E883FD7EEACAB7AB32 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		568E92FF1ED34988002995C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				568E92FE1ED34988002995C8 /* SwarajNaturals.app */,
+				568E93121ED34989002995C8 /* SwarajNaturalsTests.xctest */,
+				568E931D1ED34989002995C8 /* SwarajNaturalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		568E93001ED34988002995C8 /* SwarajNaturals */ = {
+			isa = PBXGroup;
+			children = (
+				565221101EE9EE4000CF02AD /* TabBarControllers */,
+				5630ADEB1EE74BEB002C8457 /* GoogleService-Info.plist */,
+				5630ADE81EE73E3F002C8457 /* SwarajNaturals.entitlements */,
+				568E93011ED34988002995C8 /* AppDelegate.swift */,
+				568E93031ED34988002995C8 /* UserAuthViewController.swift */,
+				56D6C2F81EE9D9D70076CC83 /* HomeViewController.swift */,
+				568E93051ED34988002995C8 /* Main.storyboard */,
+				568E93081ED34988002995C8 /* Assets.xcassets */,
+				568E930A1ED34988002995C8 /* LaunchScreen.storyboard */,
+				568E930D1ED34988002995C8 /* Info.plist */,
+			);
+			path = SwarajNaturals;
+			sourceTree = "<group>";
+		};
+		568E93151ED34989002995C8 /* SwarajNaturalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				568E93161ED34989002995C8 /* SwarajNaturalsTests.swift */,
+				568E93181ED34989002995C8 /* Info.plist */,
+			);
+			path = SwarajNaturalsTests;
+			sourceTree = "<group>";
+		};
+		568E93201ED34989002995C8 /* SwarajNaturalsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				568E93211ED34989002995C8 /* SwarajNaturalsUITests.swift */,
+				568E93231ED34989002995C8 /* Info.plist */,
+			);
+			path = SwarajNaturalsUITests;
+			sourceTree = "<group>";
+		};
+		5E7431E883FD7EEACAB7AB32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5F9D1C85901C8B882A58FBC /* Pods-SwarajNaturals.debug.xcconfig */,
+				4C9EA2747DFBF8FD93B9FE26 /* Pods-SwarajNaturals.release.xcconfig */,
+				47396BCCFC5FAA68C8DF7BDD /* Pods-SwarajNaturalsTests.debug.xcconfig */,
+				6A169BB9B0417A692DD209A5 /* Pods-SwarajNaturalsTests.release.xcconfig */,
+				D38CF33E6A92E858E0B31E2E /* Pods-SwarajNaturalsUITests.debug.xcconfig */,
+				F7F61259D4888EA76B780A12 /* Pods-SwarajNaturalsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		568E92FD1ED34988002995C8 /* SwarajNaturals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568E93261ED34989002995C8 /* Build configuration list for PBXNativeTarget "SwarajNaturals" */;
+			buildPhases = (
+				F08170102D36452AA2E6FC21 /* [CP] Check Pods Manifest.lock */,
+				568E92FA1ED34988002995C8 /* Sources */,
+				568E92FB1ED34988002995C8 /* Frameworks */,
+				568E92FC1ED34988002995C8 /* Resources */,
+				83C33A1DF7A94172A62B299A /* [CP] Embed Pods Frameworks */,
+				48F684171FC9A03B6F059ADA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwarajNaturals;
+			productName = SwarajNaturals;
+			productReference = 568E92FE1ED34988002995C8 /* SwarajNaturals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		568E93111ED34989002995C8 /* SwarajNaturalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568E93291ED34989002995C8 /* Build configuration list for PBXNativeTarget "SwarajNaturalsTests" */;
+			buildPhases = (
+				CA6E70F51617153CB387F586 /* [CP] Check Pods Manifest.lock */,
+				568E930E1ED34989002995C8 /* Sources */,
+				568E930F1ED34989002995C8 /* Frameworks */,
+				568E93101ED34989002995C8 /* Resources */,
+				67796EB41DCA31B4E004DCEE /* [CP] Embed Pods Frameworks */,
+				DA2AD66890884FBB25836645 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				568E93141ED34989002995C8 /* PBXTargetDependency */,
+			);
+			name = SwarajNaturalsTests;
+			productName = SwarajNaturalsTests;
+			productReference = 568E93121ED34989002995C8 /* SwarajNaturalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		568E931C1ED34989002995C8 /* SwarajNaturalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568E932C1ED34989002995C8 /* Build configuration list for PBXNativeTarget "SwarajNaturalsUITests" */;
+			buildPhases = (
+				E64EB371E48E1026620DC55C /* [CP] Check Pods Manifest.lock */,
+				568E93191ED34989002995C8 /* Sources */,
+				568E931A1ED34989002995C8 /* Frameworks */,
+				568E931B1ED34989002995C8 /* Resources */,
+				6B1FF8C38C87D4C63C8947ED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				568E931F1ED34989002995C8 /* PBXTargetDependency */,
+			);
+			name = SwarajNaturalsUITests;
+			productName = SwarajNaturalsUITests;
+			productReference = 568E931D1ED34989002995C8 /* SwarajNaturalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		568E92F61ED34988002995C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SwarajNaturals;
+				TargetAttributes = {
+					568E92FD1ED34988002995C8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UW64KF5PMG;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					568E93111ED34989002995C8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UW64KF5PMG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 568E92FD1ED34988002995C8;
+					};
+					568E931C1ED34989002995C8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UW64KF5PMG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 568E92FD1ED34988002995C8;
+					};
+				};
+			};
+			buildConfigurationList = 568E92F91ED34988002995C8 /* Build configuration list for PBXProject "SwarajNaturals" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 568E92F51ED34988002995C8;
+			productRefGroup = 568E92FF1ED34988002995C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				568E92FD1ED34988002995C8 /* SwarajNaturals */,
+				568E93111ED34989002995C8 /* SwarajNaturalsTests */,
+				568E931C1ED34989002995C8 /* SwarajNaturalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		568E92FC1ED34988002995C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568E930C1ED34988002995C8 /* LaunchScreen.storyboard in Resources */,
+				5630ADEC1EE74BEB002C8457 /* GoogleService-Info.plist in Resources */,
+				568E93091ED34988002995C8 /* Assets.xcassets in Resources */,
+				568E93071ED34988002995C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568E93101ED34989002995C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568E931B1ED34989002995C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48F684171FC9A03B6F059ADA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwarajNaturals/Pods-SwarajNaturals-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67796EB41DCA31B4E004DCEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwarajNaturalsTests/Pods-SwarajNaturalsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B1FF8C38C87D4C63C8947ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwarajNaturalsUITests/Pods-SwarajNaturalsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83C33A1DF7A94172A62B299A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwarajNaturals/Pods-SwarajNaturals-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA6E70F51617153CB387F586 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA2AD66890884FBB25836645 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwarajNaturalsTests/Pods-SwarajNaturalsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E64EB371E48E1026620DC55C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F08170102D36452AA2E6FC21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		568E92FA1ED34988002995C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568E93041ED34988002995C8 /* UserAuthViewController.swift in Sources */,
+				568E93021ED34988002995C8 /* AppDelegate.swift in Sources */,
+				56D6C2F91EE9D9D70076CC83 /* HomeViewController.swift in Sources */,
+				565221121EE9EE9800CF02AD /* FreshViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568E930E1ED34989002995C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568E93171ED34989002995C8 /* SwarajNaturalsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568E93191ED34989002995C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568E93221ED34989002995C8 /* SwarajNaturalsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		568E93141ED34989002995C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 568E92FD1ED34988002995C8 /* SwarajNaturals */;
+			targetProxy = 568E93131ED34989002995C8 /* PBXContainerItemProxy */;
+		};
+		568E931F1ED34989002995C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 568E92FD1ED34988002995C8 /* SwarajNaturals */;
+			targetProxy = 568E931E1ED34989002995C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		568E93051ED34988002995C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568E93061ED34988002995C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		568E930A1ED34988002995C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568E930B1ED34988002995C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		568E93241ED34989002995C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		568E93251ED34989002995C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		568E93271ED34989002995C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5F9D1C85901C8B882A58FBC /* Pods-SwarajNaturals.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UW64KF5PMG;
+				INFOPLIST_FILE = SwarajNaturals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.swarajnaturals.SwarajNaturals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		568E93281ED34989002995C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9EA2747DFBF8FD93B9FE26 /* Pods-SwarajNaturals.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UW64KF5PMG;
+				INFOPLIST_FILE = SwarajNaturals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.swarajnaturals.SwarajNaturals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		568E932A1ED34989002995C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47396BCCFC5FAA68C8DF7BDD /* Pods-SwarajNaturalsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UW64KF5PMG;
+				INFOPLIST_FILE = SwarajNaturalsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.swarajnaturals.SwarajNaturalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwarajNaturals.app/SwarajNaturals";
+			};
+			name = Debug;
+		};
+		568E932B1ED34989002995C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A169BB9B0417A692DD209A5 /* Pods-SwarajNaturalsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UW64KF5PMG;
+				INFOPLIST_FILE = SwarajNaturalsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.swarajnaturals.SwarajNaturalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwarajNaturals.app/SwarajNaturals";
+			};
+			name = Release;
+		};
+		568E932D1ED34989002995C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D38CF33E6A92E858E0B31E2E /* Pods-SwarajNaturalsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UW64KF5PMG;
+				INFOPLIST_FILE = SwarajNaturalsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.swarajnaturals.SwarajNaturalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwarajNaturals;
+			};
+			name = Debug;
+		};
+		568E932E1ED34989002995C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F61259D4888EA76B780A12 /* Pods-SwarajNaturalsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UW64KF5PMG;
+				INFOPLIST_FILE = SwarajNaturalsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.swarajnaturals.SwarajNaturalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwarajNaturals;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		568E92F91ED34988002995C8 /* Build configuration list for PBXProject "SwarajNaturals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568E93241ED34989002995C8 /* Debug */,
+				568E93251ED34989002995C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568E93261ED34989002995C8 /* Build configuration list for PBXNativeTarget "SwarajNaturals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568E93271ED34989002995C8 /* Debug */,
+				568E93281ED34989002995C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568E93291ED34989002995C8 /* Build configuration list for PBXNativeTarget "SwarajNaturalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568E932A1ED34989002995C8 /* Debug */,
+				568E932B1ED34989002995C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568E932C1ED34989002995C8 /* Build configuration list for PBXNativeTarget "SwarajNaturalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568E932D1ED34989002995C8 /* Debug */,
+				568E932E1ED34989002995C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 568E92F61ED34988002995C8 /* Project object */;
+}
