@@ -37,8 +37,6 @@ class FreshViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-//        self.tabBarController?.navigationItem.title = "Fresh off the Farm"
-//        self.tabBarController?.navigationItem.hidesBackButton = true
     }
     
     func goHome() {

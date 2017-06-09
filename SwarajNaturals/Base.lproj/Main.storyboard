@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -113,10 +112,10 @@
             </objects>
             <point key="canvasLocation" x="1571.0144927536232" y="-263.31521739130437"/>
         </scene>
-        <!--Item-->
+        <!--Browse-->
         <scene sceneID="AGP-G7-zzv">
             <objects>
-                <viewController id="WSG-pq-lfZ" sceneMemberID="viewController">
+                <viewController id="WSG-pq-lfZ" customClass="BrowseViewController" customModule="SwarajNaturals" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HJG-df-BtN"/>
                         <viewControllerLayoutGuide type="bottom" id="1BM-Fu-fKf"/>
@@ -126,17 +125,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="7PV-UF-XS2"/>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <tabBarItem key="tabBarItem" title="Browse" image="browseTab" selectedImage="browseTabSelected" id="7PV-UF-XS2"/>
                     <navigationItem key="navigationItem" id="JJk-IO-bS7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VZZ-cb-iUv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1746" y="615"/>
         </scene>
-        <!--Item-->
+        <!--Cart-->
         <scene sceneID="bm7-w9-JKQ">
             <objects>
-                <viewController id="MLY-xn-jRi" sceneMemberID="viewController">
+                <viewController id="MLY-xn-jRi" customClass="CartViewController" customModule="SwarajNaturals" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eZO-od-nqr"/>
                         <viewControllerLayoutGuide type="bottom" id="vcq-d2-uku"/>
@@ -146,17 +146,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="e6F-Ef-I79"/>
+                    <tabBarItem key="tabBarItem" title="Cart" image="cartTab" selectedImage="cartTabSelected" id="e6F-Ef-I79"/>
                     <navigationItem key="navigationItem" id="VfJ-CX-NzS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q1A-7e-9ZN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2635" y="615"/>
         </scene>
-        <!--Item-->
+        <!--Profile-->
         <scene sceneID="Lu5-Qz-i3r">
             <objects>
-                <viewController id="HOJ-qR-rwF" sceneMemberID="viewController">
+                <viewController id="HOJ-qR-rwF" customClass="ProfileViewController" customModule="SwarajNaturals" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IeS-Ef-ckv"/>
                         <viewControllerLayoutGuide type="bottom" id="ZfI-nk-2kg"/>
@@ -166,14 +166,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="I52-Ry-poo"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="profileTab" selectedImage="profileTabSelected" id="I52-Ry-poo"/>
                     <navigationItem key="navigationItem" id="PF2-Sb-3Mj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EIG-dC-Xcg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3441" y="615"/>
         </scene>
-        <!--Item-->
+        <!--Home-->
         <scene sceneID="ctb-Js-yrr">
             <objects>
                 <viewController id="fhy-Xi-1po" customClass="FreshViewController" customModule="SwarajNaturals" customModuleProvider="target" sceneMemberID="viewController">
@@ -196,7 +196,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="2x3-rp-H1r"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="homeTab" selectedImage="homeTabSelected" id="2x3-rp-H1r"/>
                     <navigationItem key="navigationItem" id="EkC-TY-NWJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fcd-Q2-LQG" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -243,6 +243,14 @@
         </scene>
     </scenes>
     <resources>
+        <image name="browseTab" width="30" height="30"/>
+        <image name="browseTabSelected" width="30" height="30"/>
+        <image name="cartTab" width="30" height="30"/>
+        <image name="cartTabSelected" width="30" height="30"/>
+        <image name="homeTab" width="30" height="30"/>
+        <image name="homeTabSelected" width="30" height="30"/>
         <image name="landingImage" width="66" height="19"/>
+        <image name="profileTab" width="30" height="30"/>
+        <image name="profileTabSelected" width="30" height="30"/>
     </resources>
 </document>
