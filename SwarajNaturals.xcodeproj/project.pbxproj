@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		1260516D8510BD68F2F9B646 /* Pods_SwarajNaturals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948FC47533869B4737329480 /* Pods_SwarajNaturals.framework */; };
 		2AFE55C3C6D04F39E7BAB9DB /* Pods_SwarajNaturalsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067D7C8EC33F13192147E766 /* Pods_SwarajNaturalsUITests.framework */; };
-		5630ADEC1EE74BEB002C8457 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5630ADEB1EE74BEB002C8457 /* GoogleService-Info.plist */; };
 		565221121EE9EE9800CF02AD /* FreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565221111EE9EE9800CF02AD /* FreshViewController.swift */; };
+		565221141EEA37B200CF02AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 565221131EEA37B200CF02AD /* GoogleService-Info.plist */; };
 		568E93021ED34988002995C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E93011ED34988002995C8 /* AppDelegate.swift */; };
 		568E93041ED34988002995C8 /* UserAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E93031ED34988002995C8 /* UserAuthViewController.swift */; };
 		568E93071ED34988002995C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568E93051ED34988002995C8 /* Main.storyboard */; };
@@ -44,8 +44,8 @@
 		47396BCCFC5FAA68C8DF7BDD /* Pods-SwarajNaturalsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarajNaturalsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwarajNaturalsTests/Pods-SwarajNaturalsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4C9EA2747DFBF8FD93B9FE26 /* Pods-SwarajNaturals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarajNaturals.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwarajNaturals/Pods-SwarajNaturals.release.xcconfig"; sourceTree = "<group>"; };
 		5630ADE81EE73E3F002C8457 /* SwarajNaturals.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwarajNaturals.entitlements; sourceTree = "<group>"; };
-		5630ADEB1EE74BEB002C8457 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		565221111EE9EE9800CF02AD /* FreshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreshViewController.swift; sourceTree = "<group>"; };
+		565221131EEA37B200CF02AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		568E92FE1ED34988002995C8 /* SwarajNaturals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarajNaturals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		568E93011ED34988002995C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		568E93031ED34988002995C8 /* UserAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthViewController.swift; sourceTree = "<group>"; };
@@ -140,7 +140,6 @@
 			isa = PBXGroup;
 			children = (
 				565221101EE9EE4000CF02AD /* TabBarControllers */,
-				5630ADEB1EE74BEB002C8457 /* GoogleService-Info.plist */,
 				5630ADE81EE73E3F002C8457 /* SwarajNaturals.entitlements */,
 				568E93011ED34988002995C8 /* AppDelegate.swift */,
 				568E93031ED34988002995C8 /* UserAuthViewController.swift */,
@@ -149,6 +148,7 @@
 				568E93081ED34988002995C8 /* Assets.xcassets */,
 				568E930A1ED34988002995C8 /* LaunchScreen.storyboard */,
 				568E930D1ED34988002995C8 /* Info.plist */,
+				565221131EEA37B200CF02AD /* GoogleService-Info.plist */,
 			);
 			path = SwarajNaturals;
 			sourceTree = "<group>";
@@ -317,7 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				568E930C1ED34988002995C8 /* LaunchScreen.storyboard in Resources */,
-				5630ADEC1EE74BEB002C8457 /* GoogleService-Info.plist in Resources */,
+				565221141EEA37B200CF02AD /* GoogleService-Info.plist in Resources */,
 				568E93091ED34988002995C8 /* Assets.xcassets in Resources */,
 				568E93071ED34988002995C8 /* Main.storyboard in Resources */,
 			);
